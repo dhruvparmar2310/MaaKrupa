@@ -2327,8 +2327,23 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   justify-content: center;
   align-items: center;
   align-content: center;
+  filter: grayscale(100%);
 }
 
+.clients-logo:hover{
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+@media (max-width: 575px) {
+  .clients-logo {
+    filter: grayscale(0%);
+    margin: 0 0 30px;
+    display: flex;
+    min-height: 30px;
+    padding: 0 1px;
+  }
+}
 
 /* Testimonial
 ================================================== */
