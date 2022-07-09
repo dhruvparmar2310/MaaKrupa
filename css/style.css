@@ -2327,7 +2327,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   justify-content: center;
   align-items: center;
   align-content: center;
-  filter: grayscale(80%);
+  filter: grayscale(100%);
 }
 
 .clients-logo:hover{
